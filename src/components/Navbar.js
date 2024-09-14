@@ -16,9 +16,9 @@ const Navbar = () => (
     <a href="#projects" className={`${newsreader.className} hover:underline mx-2 my-1`}>
       Projects
     </a>
-    <a href="#contact" className={`${newsreader.className} hover:underline mx-2 my-1`}>
+    {/* <a href="#contact" className={`${newsreader.className} hover:underline mx-2 my-1`}>
       Contact
-    </a>
+    </a> */}
   </nav>
 );
 
