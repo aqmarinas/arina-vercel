@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        newsreader: ['Newsreader', 'serif'],
-        playfair: ['Playfair Display', 'serif'],
+        // newsreader: ['Newsreader', 'serif'],
+        // playfair: ['Playfair Display', 'serif'],
       },
     },
   },
