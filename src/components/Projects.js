@@ -31,7 +31,7 @@ const Projects = () => (
           </div>
           <a 
             href={project.repository} 
-            className={`${newsreader.className} hover:underline mt-auto`}
+            className={`${newsreader.className} hover:underline mt-auto font-bold`}
             target="_blank" 
             rel="noopener noreferrer"
           >

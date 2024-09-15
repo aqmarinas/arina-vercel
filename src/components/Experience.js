@@ -20,7 +20,7 @@ const experiences = [
     jobRole: 'Application Developer',
     company: 'Metrodata Academy',
     year: 'Feb 2024 - June 2024',
-    description: `As a frontend developer, I developed and maintained Metrodata Academy website and its admin panel using React.js, ensuring responsive and intuitive web applications. I collaborated closely with backend developers and quality assurance engineer to create seamless UI/UX experiences. Using React’s component-based architecture, I built dynamic features while maintaining clean, modular code. My work also involved integrating APIs and state management, optimizing performance, and ensuring cross-browser compatibility`,
+    description: `As a frontend developer, I developed and maintained Metrodata Academy website and its admin panel using React.js, ensuring responsive and intuitive web applications. I collaborated closely with backend developers and quality assurance engineer to create seamless UI/UX experiences. Using React’s component-based architecture, I built dynamic features while maintaining clean, modular code. My work also involved integrating APIs and state management, optimizing performance, and ensuring cross-browser compatibility.`,
   },
 ];
 

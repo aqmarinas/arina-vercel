@@ -25,7 +25,7 @@ const Header = () => (
         <Mail className="w-4 h-4 mr-2" />
         aqmarinasha@gmail.com
       </a>
-      <a href="https://github.com/x" target="_blank" className={`${newsreader.className} hover:underline flex items-center text-sm md:text-base`}>
+      <a href="https://github.com/aqmarinas" target="_blank" className={`${newsreader.className} hover:underline flex items-center text-sm md:text-base`}>
         <Github className="w-4 h-4 mr-2" />
         @aqmarinas
       </a>
