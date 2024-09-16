@@ -33,10 +33,10 @@ const Header = () => (
         <Linkedin className="w-4 h-4 mr-2" />
         Aqmarina Shabihah
       </a>
-      <a href="/docs/cv.pdf" target="_blank" className={`${newsreader.className} hover:underline flex items-center text-sm md:text-base`}>
+      {/* <a href="/docs/cv.pdf" target="_blank" className={`${newsreader.className} hover:underline flex items-center text-sm md:text-base`}>
         <FileText className="w-4 h-4 mr-2" />
         Download CV
-      </a>
+      </a> */}
     </div>
   </header>
 );
