@@ -2,7 +2,7 @@ export const experiences = [
   {
     position: "Laravel Instructor",
     period: "Aug - Dec 2024",
-    company: "Laboratorium Komputer UNSIKA",
+    company: "Laboratorium Komputer Fasilkom UNSIKA",
     details: [
       "Conducted 60+ hours of Laravel practicum sessions for 35+ students over 12 weeks",
       "Resolved 100+ Laravel and Git errors to helping students finish their projects",
