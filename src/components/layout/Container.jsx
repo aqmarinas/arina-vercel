@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { jetbrains } from "../../pages/fonts/jetbrains";
+import { jetbrains } from "../../fonts/jetbrains";
 import Launcher from "../Launcher";
 import ActionBar from "../ActionBar";
 
