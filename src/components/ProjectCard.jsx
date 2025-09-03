@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function ProjectCard({ imageSrc, name, description, stacks, link, period }) {
   return (
     <div className="block max-w-full border border-black overflow-hidden">
-      <div className="relative group w-full h-screen md:h-auto md:aspect-video">
+      <div className="relative group w-full h-96 sm:h-96 md:h-auto md:aspect-video">
         <Image
           className="object-cover saturate-0 group-hover:saturate-100 transition duration-500 transform group-hover:scale-105"
           fill

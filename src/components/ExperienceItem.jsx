@@ -4,7 +4,7 @@ import highlightNumbers from "../utils/highlightNumbers";
 export default function ExperienceItem({ imageSrc, position, company, period, details, description, stacks }) {
   return (
     <div className="border border-black space-y-1 py-2 px-4 w-full hover:bg-gray-100">
-      <div className="flex justify-between">
+      <div className="flex justify-between space-x-4">
         <div className="flex space-x-2">
           <div className="relative w-8 h-8">
             <Image
@@ -15,7 +15,7 @@ export default function ExperienceItem({ imageSrc, position, company, period, de
             />
           </div>
           <div>
-            <h3>{position}</h3>
+            <h3 className="text-left">{position}</h3>
             <p>{company}</p>
           </div>
         </div>

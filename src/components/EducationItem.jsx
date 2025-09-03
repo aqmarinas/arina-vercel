@@ -11,7 +11,7 @@ export default function EducationItem({ imageSrc, name, field, period, details }
         className="object-contain aspect-square"
       />
       <div>
-        <h3>{name}</h3>
+        <h3 className="text-left">{name}</h3>
         <p>{field}</p>
         <p className="text-gray-500">{period}</p>
         <ul className="list-disc pl-5">
