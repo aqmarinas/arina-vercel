@@ -15,7 +15,7 @@ export default function EducationItem({ imageSrc, name, field, period, details }
         <p>{field}</p>
         <p className="text-gray-500">{period}</p>
         <ul className="list-disc pl-5">
-          {details.map((detail, index) => (
+          {details?.map((detail, index) => (
             <li key={index}>
               <p className="text-left">{detail}</p>
             </li>

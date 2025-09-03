@@ -1,41 +1,51 @@
+import { ctaData } from "@/src/constant/cta";
 import { Mail } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+const iconConfig = {
+  width: 32,
+  height: 32,
+};
+
 export default function CTA() {
   return (
     <div className="cursor-default">
-      <h2>Let’s Build Something Awesome!</h2>
+      <h2>{ctaData.title}</h2>
       <p>
-        Got an idea you want to bring to life? <br /> Let’s chat and create something cool together!
+        {ctaData.description} <br /> {ctaData.subDescription}
       </p>
 
       <div className="w-full flex justify-center my-4">
         <Link
-          href="mailto:aqmarinasha@gmail.com"
+          href={`mailto:${ctaData.contact.email}`}
           className="border border-black inline-flex gap-2 hover:bg-gray-100 px-2 py-1"
         >
           <Mail className="size-5" />
-          Contact Me!
+          {ctaData.contact.buttonText}
         </Link>
       </div>
+
       <div className="flex justify-center gap-4">
-        <Link href="https://github.com/aqmarinas">
-          <Image
-            src="/img/github.svg"
-            alt="Github"
-            width={32}
-            height={32}
-          />
-        </Link>
-        <Link href="https://linkedin.com/in/aqmarinas">
-          <Image
-            src="/img/linkedin.svg"
-            alt="LinkedIn"
-            width={32}
-            height={32}
-          />
-        </Link>
+        {ctaData.socialLinks.map((social) => (
+          <Link
+            key={social.name}
+            href={social.url}
+            legacyBehavior
+          >
+            <a
+              target="_blank"
+              rel="noopener nerefferer"
+            >
+              <Image
+                src={social.icon}
+                alt={social.alt}
+                width={iconConfig.width}
+                height={iconConfig.height}
+              />
+            </a>
+          </Link>
+        ))}
       </div>
     </div>
   );

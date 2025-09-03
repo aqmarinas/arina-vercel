@@ -11,18 +11,24 @@ export default function ActionBar({ onMinimize, onMaximize, onClose }) {
         <button
           onClick={onMinimize}
           className="hover:bg-gray-200 rounded p-1"
+          aria-label="Minimize"
+          title="Minimize"
         >
           <Minus className="w-4" />
         </button>
         <button
           onClick={onMaximize}
           className="hover:bg-gray-200 rounded p-1"
+          aria-label="Maximize"
+          title="Maximize"
         >
           <Square className="w-4" />
         </button>
         <button
           onClick={onClose}
           className="hover:bg-gray-200 rounded p-1"
+          aria-label="Close"
+          title="Close"
         >
           <X className="w-4" />
         </button>

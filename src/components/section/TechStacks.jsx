@@ -1,4 +1,4 @@
-import { beBadges, dbBadges, feBadges, otherBadges } from "@/src/constant/stacks";
+import { beBadges, cloudDevOpsBadges, dbBadges, feBadges, otherBadges } from "@/src/constant/stacks";
 import StackGroup from "../StackGroup";
 
 export default function TechStacks() {
@@ -16,6 +16,10 @@ export default function TechStacks() {
       <StackGroup
         title="Database"
         items={dbBadges}
+      />
+      <StackGroup
+        title="Cloud & DevOps"
+        items={cloudDevOpsBadges}
       />
       <StackGroup
         title="Other"

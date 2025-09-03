@@ -10,6 +10,7 @@ export default function StackGroup({ title, items }) {
             key={badge.title}
             src={badge.src}
             title={badge.title}
+            priority={badge.priority}
           />
         ))}
       </div>
