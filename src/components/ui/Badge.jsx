@@ -7,7 +7,7 @@ export default function Badge({ src, title, priority }) {
     <div
       className={`
         border border-black flex justify-between gap-1 px-2 py-1
-        ${isPriority ? "bg-black text-white hover:bg-gray-900" : "hover:bg-gray-100"}
+        ${isPriority ? "bg-black text-white hover:bg-gray-700" : "hover:bg-gray-100"}
       `}
     >
       {src && (

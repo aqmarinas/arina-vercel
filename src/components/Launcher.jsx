@@ -1,5 +1,6 @@
 import { Cat } from "lucide-react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Launcher({ onClick }) {
   return (
@@ -14,9 +15,19 @@ export default function Launcher({ onClick }) {
       <button
         onClick={onClick}
         className="flex flex-col items-center gap-2"
+        aria-label="Open launcher"
       >
-        <Cat className="size-10" />
-        <span>Click to open!</span>
+        {/* <Cat className="size-10" /> */}
+        <div className="relative size-32">
+          <Image
+            src="/img/cat-gif.gif"
+            alt="Cat GIF"
+            fill
+            unoptimized
+          />
+        </div>
+
+        <span>Click the cat to open!</span>
       </button>
     </motion.div>
   );

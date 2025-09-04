@@ -19,7 +19,7 @@ export default function ExperienceItem({ imageSrc, position, company, period, de
             <p>{company}</p>
           </div>
         </div>
-        <p className="text-gray-500">{period}</p>
+        <p className="text-gray-500 text-right">{period}</p>
       </div>
 
       {description && <p className="text-justify">{description}</p>}

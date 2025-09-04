@@ -16,7 +16,7 @@ export default function Home() {
       <Experiences />
       <Projects />
       <CTA />
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   );
 }
